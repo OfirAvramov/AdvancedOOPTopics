@@ -21,7 +21,12 @@ namespace Generics.Collections.Exercise
         #region Constructor
         public StudentList()
         {
-          
+            Students = new List<Student>();
+            var l = Student.FillList();
+            foreach(var s in l)
+            {
+                Students.Add(s);
+            }
         }
         #endregion
 
@@ -31,12 +36,18 @@ namespace Generics.Collections.Exercise
         #region Work with  Dictionary
         public Dictionary<string, Student> CreateDictionaryFromStudentList()
         {
-            return null;
+            Dictionary<string, Student> dictio = new Dictionary<string, Student>();
+            for (int i = 0; i < ; i++)
+            {
+                dictio.
+            }
+
         }
 
         //Targil 4- write a method which retrieves a Student By name. Use the Dictionary create in Targil 3
         public Student FindStudentByName(string name)
         {
+
             return null;
         }
         #endregion
