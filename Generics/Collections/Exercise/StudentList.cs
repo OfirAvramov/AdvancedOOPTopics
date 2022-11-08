@@ -37,9 +37,11 @@ namespace Generics.Collections.Exercise
         public Dictionary<string, Student> CreateDictionaryFromStudentList()
         {
             Dictionary<string, Student> dictio = new Dictionary<string, Student>();
-            for (int i = 0; i < ; i++)
+            var l = Student.FillList();
+            for (int i = 0; i < Student.count; i++)
             {
-                dictio.
+                dictio.Add(var[i].Get_name());
+                dictio.Add(Student);
             }
 
         }
@@ -47,8 +49,19 @@ namespace Generics.Collections.Exercise
         //Targil 4- write a method which retrieves a Student By name. Use the Dictionary create in Targil 3
         public Student FindStudentByName(string name)
         {
+            Students = new List<Student>();
+            for (int i = 0; i < Students.count; i++)
+			{
+                if(Students[i].Get_name = name)
+                {
+                    Dictionary newdictio<string, Student> = CreateDictionaryFromStudentList();
+                    return newdictio
+                }
+                    
 
-            return null;
+                
+			}
+            
         }
         #endregion
 
